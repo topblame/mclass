@@ -5,7 +5,7 @@ FROM eclipse-temurin:17-jdk
 WORKDIR /app
 
 # Maven 또는 Gradle 빌드 후 샏성된 JAR 파일을 컨테이너 내부 /app 디렉터리에 app.jar 이름으로 복사
-COPY app.jar app.JAR
+COPY app.jar app.jar
 
 #실행 포트 지정
 EXPOSE 8081
